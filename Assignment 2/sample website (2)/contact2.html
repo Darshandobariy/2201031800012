@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT FORM </title>
+</head>
+<style>
+    body {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        color: white;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    .sign-in {
+        height: 93vh;
+        width: 500px;
+        border-radius: 30px;
+        border: 1px solid white;
+        background-image: url("/images/output-onlinepngtools\ \(3\).png");
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        margin: 0;
+    }
+
+    img {
+
+        width: 200px;
+
+
+    }
+
+    .gender {
+        accent-color: red;
+    }
+   
+    .fullname label{
+        font-size: 25px;
+    }
+    .fullname input{
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 7px;
+        width: 100%;
+        
+    }
+    .sample label{
+        padding: 20px;
+    }
+    .sample{
+        display: flex;
+        font-size: 22px; 
+    }
+    .fullname{
+        margin: 20px;
+    }
+   .sample{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .member{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 60px;
+   }
+   .member a{
+        color: red;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   }
+   .member p{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding-right: 50px;
+        font-size: 22px;
+   }
+   .terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .terms p{
+    padding-left: 10px;
+   }
+   #terms{
+    accent-color: green;
+   }
+   .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+    
+   .btn button{
+    padding: 15px 40px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    margin: 30px;
+    font-size: 20px;
+   }
+
+</style>
+
+<body>
+    <div class="sign-in ">
+        <img src="/images/Screenshot__13_-removebg-preview.png" alt="">
+        <form action="#" method="post">
+            <p class="name">SIGN UP</p>
+            <div class="fullname">
+                <label for="fullname">Full name:
+                    <input type="text" name="fullname" id="fullname" placeholder="Write full name"></label>
+            </div>
+            <div class="fullname">
+                <label for="number">Mobile number:
+                    <input type="number" name="fullname" id="number" placeholder="Write Mobile number"></label>
+            </div>
+            <div class="fullname">
+                <label for="email">Email:
+                    <input type="email" name="fullname" id="email" placeholder="Write E-mail"></label>
+            </div>
+            <div class="fullname">
+                <label for="password">Password:
+                    <input type="password" name="fullname" id="password" placeholder="Write password"></label>
+            </div>
+
+            <div class="sample">
+                <input type="radio" class="gender" name="fav_language" value="Male">
+                <label for="gender">Male</label><br>
+                <input type="radio" class="gender" name="fav_language" value="Female">
+                <label for="gender">Female</label>
+                <input type="radio" class="gender" name="fav_language" value="Other">
+                <label for="gender">Other</label>
+            </div>
+
+            <div class="member">
+                <p>Already a member?</p>
+                <a href="/sample website/contact.html">Log in</a>
+            </div>
+            <div class="terms">
+                <input type="radio" class="check" name="check" value="check" id="terms">
+                <p>I have read and accept the terms and conditions</p>
+            </div>
+            <div class="btn">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+</body>
+
+</html>
